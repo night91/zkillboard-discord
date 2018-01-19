@@ -1,0 +1,2 @@
+endpoint: "https://redisq.zkillboard.com/listen.php?ttw=0"
+zkb_endpoint: "https://zkillboard.com"

@@ -1,0 +1,7 @@
+application:
+  corp:
+    type: "corporation"
+    id: 98540683
+    webhook_url: "https://discordapp.com/api/webhooks/403936933266325516/Ay-4IiMpKg9lz_zGAMUDGnMdPYPHIe7prl4dIojEa-dfR12z3dzrEbU8AvoDXxhIHL7W"
+    processing:
+      type: 'all'
