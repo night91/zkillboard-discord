@@ -1,1 +1,1 @@
-bundle exec rackup
+bundle exec ruby app.rb
