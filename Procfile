@@ -1,1 +1,1 @@
-cmd: bundle exec ruby app.rb
+console: bundle exec ruby app.rb
