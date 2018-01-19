@@ -1,1 +1,1 @@
-bundle exec ruby app.rb
+clock: bundle exec ruby app.rb
