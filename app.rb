@@ -20,3 +20,5 @@ module ZkbDiscord
     end
   end
 end
+
+ZkbDiscord::App.start
