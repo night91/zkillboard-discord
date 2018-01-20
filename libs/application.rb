@@ -20,11 +20,11 @@ module ZkbDiscord
 
       case @processing['type']
       when 'victim'
-        is_victim && total_value >= @processing['min_isk_lost']
+        is_victim && look_for_min_isk_lost(total_value) && look_for_attackers(data)
       when 'attacker'
         is_attacker
       when 'all'
-        is_victim || is_attacker
+        (is_victim || is_attacker) && look_for_min_isk_lost(total_value)
       end
     end
 
@@ -39,7 +39,6 @@ module ZkbDiscord
     end
 
     def attacker_kill_mail(data)
-      return false unless %w[all attacker].include?(@processing)
       data['killmail']['attackers'].any? { |attacker| attacker["#{@type}_id"] == @id }
     end
 
@@ -49,6 +48,18 @@ module ZkbDiscord
 
     def create_kill_mail_url(kill_mail_id)
       "#{@zkb_endpoint}/kill/#{kill_mail_id}"
+    end
+
+    def look_for_attackers(data)
+      return true unless @processing['attackers']
+      data['killmail']['attackers'].any? do |attacker|
+        @processing['attackers'].include?(attacker['corporation_id']) ||
+            @processing['attackers'].include?(attacker['alliance_id'])
+      end
+    end
+
+    def look_for_min_isk_lost(total_value)
+      total_value >= @processing['min_isk_lost'].to_i
     end
   end
 end
