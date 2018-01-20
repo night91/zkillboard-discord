@@ -5,4 +5,4 @@ application:
     webhook_url: "https://discordapp.com/api/webhooks/403980105032138755/GOQoKsqwY7D6ZptcOkPNoDNfxTkE7uO2dfn4QUdAjvUuNQnqqlKhvwLmw3BB14J2xubz"
     processing:
       type: 'victim'
-      min_isk_lost: 1000000000
+      min_isk_lost: 100000000
