@@ -1,7 +1,7 @@
 module ZkbDiscord
   class Config
     CONFIG_FILES = %w[config application]
-    APPLICATIONS_FILES= %w[corp goons goons-fuschia]
+    APPLICATIONS_FILES= %w[corp goons]
 
     attr_reader :config
 

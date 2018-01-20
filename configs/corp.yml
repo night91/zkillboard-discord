@@ -2,6 +2,6 @@ application:
   corp:
     type: "corporation"
     id: 98540683
-    webhook_url: "https://discordapp.com/api/webhooks/403936933266325516/Ay-4IiMpKg9lz_zGAMUDGnMdPYPHIe7prl4dIojEa-dfR12z3dzrEbU8AvoDXxhIHL7W"
+    webhook_url: "https://discordapp.com/api/webhooks/404059288126881802/8vYqqubSSIE9q2Ar_DBAyywETsMAYUgRtQz-GhNmwFBbH04qKNckJqix4TYo9RXfaHtx"
     processing:
-      type: 'all'
+      type: 'attacker'
