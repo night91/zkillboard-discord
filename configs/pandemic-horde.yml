@@ -1,0 +1,8 @@
+application:
+  goons:
+    type: "alliance"
+    id: 99005338
+    webhook_url: "https://discordapp.com/api/webhooks/416298042849886211/BznpFom_tz5xYT003Y-TSRV3NyCkU38_Z248i_b_13gLoZ8nM8C15l8ZfwyPQiyzIcqR"
+    processing:
+      type: 'victim'
+      min_isk_lost: 500000000

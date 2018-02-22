@@ -1,3 +1,6 @@
 applications:
   - corp
   - goons
+  - pandemic-horde
+  - pandemic-legion
+  - test

@@ -1,9 +1,7 @@
 application:
-  goons:
+  corp:
     type: "alliance"
-    id: 1354830081
+    id: 498125261
     webhook_url: "https://discordapp.com/api/webhooks/404059288126881802/8vYqqubSSIE9q2Ar_DBAyywETsMAYUgRtQz-GhNmwFBbH04qKNckJqix4TYo9RXfaHtx"
     processing:
-      type: 'victim'
-      attackers:
-        - 98540683
+      type: 'attacker'
