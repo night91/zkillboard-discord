@@ -1,5 +1,5 @@
 application:
-  corp:
+  test:
     type: "alliance"
     id: 498125261
     webhook_url: "https://discordapp.com/api/webhooks/416299406162264064/lZlWD6tIbj5W9XzHjfL_Ed3NVUneG87xKgc31SfYwBoAUK41zHCgNN-X76lCmtw77lkG"
