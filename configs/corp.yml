@@ -4,4 +4,4 @@ application:
     id: 98540683
     webhook_url: "https://discordapp.com/api/webhooks/404059288126881802/8vYqqubSSIE9q2Ar_DBAyywETsMAYUgRtQz-GhNmwFBbH04qKNckJqix4TYo9RXfaHtx"
     processing:
-      type: 'attacker'
+      type: 'all'
