@@ -1,0 +1,7 @@
+application:
+  nero-corp:
+    type: "corporation"
+    id: 98551035
+    webhook_url: "https://discordapp.com/api/webhooks/426901743562129409/gb24FjATFc3Jro4jMB6wyzHU2vmc9Ztzq33jRVHxk3dMcWLOUfXdQs0Nr-epDR1R7lsh"
+    processing:
+      type: 'all'
